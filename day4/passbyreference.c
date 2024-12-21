@@ -14,6 +14,7 @@ int main(){
 	x = 10;	
 	//function calling passing by value
 //	change(x);
+	//function calling passing by reference
 	modify(&x);
 	printf("%d\n", x);
 	return 0;
