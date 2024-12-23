@@ -15,9 +15,12 @@ struct Stack{
 	struct Book *books; // elements to be stored
 };
 struct Stack *createStack(int max){
+	//allocating memory to store stack details
 	struct Stack *temp = (struct Stack*)calloc(1, sizeof(struct Stack));
 	temp->capacity = max;
-	temp->size = -1;
+	//the size of stack is empty at the beginning
+	temp->size = -1; 
+	//allocating memory to store books
 	temp->books = (struct Book*)calloc(max, sizeof(struct Book));
 	return temp;
 }
@@ -97,7 +100,6 @@ int main(){
 					printBook(*b);
 				else
 					printf("Stack is empty!");
-				
 				break;
 			}
 			default:
@@ -107,3 +109,18 @@ int main(){
 	}
 	return 0;
 }
+
+Test Link : https://tinyurl.com/2s3fz7fx
+Attendance Link : https://bit.ly/AA-231224
+Trainer : Tambi
+Session : AN
+
+
+
+
+
+
+
+
+
+

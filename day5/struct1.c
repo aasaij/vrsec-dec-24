@@ -2,7 +2,6 @@
 #include <string.h>
 struct Employee {
 	int id;
-	int age;
 	char name[28];
 	float salary;
 }emp;
