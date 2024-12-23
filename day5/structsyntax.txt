@@ -1,0 +1,32 @@
+
+
+UDD --> User defined Datatype
+//structure definition syntax
+struct <tag_name/structure_name>{
+	<datatype1> <member_name1>;
+	<datatype2> <member_name2>;
+	....
+	....
+	<datatypeN> <member_nameN>;
+}[<structure_variable1>,<structure_variable2>,...,<<structure_variableN> ];
+
+example
+	struct Employee{
+		int id;
+		char name[30];
+		double salary;
+	}e1, e2,e3;
+
+	struct {
+		int id;
+		char name[30];
+		double salary;
+	}e1, e2,e3;
+	
+	struct Employee{
+		int id;
+		char name[30];
+		double salary;
+	};
+	
+
